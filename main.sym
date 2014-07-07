@@ -1,0 +1,556 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_003fuzzycFunctionGetMembershipValue	6	1	0	4	2
+1	__signed_stack_004fuzzycFunctionGetMembershipValue	6	1	4	4	2
+2	__float_stack_001fuzzycFunctionGetMembershipValue	10	1	8	4	4
+3	__DF0main	10	1	12	4	2
+4	__signed_stack_001fuzzycFunctionGetMembershipValue	6	1	16	4	24
+5	__signed_stack_002fuzzycFunctionGetMembershipValue	6	1	20	4	12
+6	__fuzzycFunctionGetMembershipValue_7qG2_currentValueY_7qG2_002	10	1	24	4	3
+7	__fuzzycFunctionGetMembershipValue_7qG2_currentValueX_7qG2_002	10	1	28	4	4
+8	__fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000	10	1	32	4	5
+9	__float_stack_002fuzzycFunctionGetMembershipValue	10	1	36	4	6
+10	__signed_stack_001main	6	1	40	4	8
+11	__signed_stack_002main	6	1	44	4	8
+12	__fuzzycFunctionGetMembershipValue_7qG2_nextValueX_7qG2_002	10	1	48	4	3
+13	__fuzzycFunctionGetMembershipValue_7qG2_diffY_7qG2_003	10	1	52	4	2
+14	__fuzzycFunctionGetMembershipValue_7qG2_diffX_7qG2_003	10	1	56	4	2
+15	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	60	4	2
+16	__fuzzycFunctionGetMembershipValue_7qG2_ratio_7qG2_003	10	1	64	4	2
+17	__ArrHelper__fuzzycFunctionGetMembershipValue_79_0	10	1	68	4	12
+18	__DF0fuzzycFunctionGetMembershipValue	10	1	72	4	12
+19	__D0fuzzycGetMultidimensionalLength	6	1	76	4	2
+20	__D0fuzzycFunctionGetMembershipValue	6	1	80	4	19
+21	__fuzzycFunctionGetMembershipValue_7qG2_nextValueY_7qG2_002	10	1	84	4	2
+22	__fuzzycFunctionGetMembershipValue_7qG2_termsLength_7qG2_000	4	1	88	2	3
+23	__fuzzycFunctionGetMembershipValue_7qG2_length_7qG2_000	4	1	90	2	4
+24	__fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000	4	1	92	2	9
+25	__constVal201	4	0	94	2	1
+26	__constVal202	4	0	96	2	1
+27	__constVal203	4	0	98	2	1
+28	__fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000	4	1	100	2	14
+29	__fuzzycFunctionGetMembershipValue_7qG2_term_7qG2_000	4	1	102	2	2
+30	__ArrHelper__fuzzycFunctionGetMembershipValue_73_0	4	1	104	2	2
+31	____initialize_global_data_return	1	1	106	1	3
+32	__PFTmp	1	1	107	1	1
+33	__constVal102	2	0	108	1	1
+34	__constVal101	2	0	109	1	1
+35	__constVal103	2	0	110	1	1
+36	__constVal3	2	0	111	1	1
+37	__fuzzycFunctionGetMembershipValue_return	1	1	112	1	6
+38	__fuzzycGetMultidimensionalLength_return	1	1	113	1	4
+39	__constVal1	2	0	114	1	2
+40	__zffuzzycFunctionGetMembershipValue	1	1	115	1	23
+41	__constVal2	2	0	116	1	3
+42	__TextOutArgs	8	0	4	16	20
+43	__TextOutArgs.Result	2	1	120	1	20
+44	__TextOutArgs.Location	8	0	2	4	20
+45	__TextOutArgs.Location.X	4	1	124	2	20
+46	__TextOutArgs.Location.Y	4	1	126	2	20
+47	__TextOutArgs.Text	7	0	128	4	20
+48	__TextOutArgs.Text.Text_type	1	0	0	1	0
+49	__TextOutArgs.Options	5	1	132	4	20
+50	__main_7qG2_outputVelocity_7qG2_000	8	0	4	12	4
+51	__main_7qG2_outputVelocity_7qG2_000.universeFrom	4	1	136	2	4
+52	__main_7qG2_outputVelocity_7qG2_000.universeTo	4	1	138	2	4
+53	__main_7qG2_outputVelocity_7qG2_000.keys	7	0	140	4	4
+54	__main_7qG2_outputVelocity_7qG2_000.keys.keys_type	4	0	0	2	0
+55	__main_7qG2_outputVelocity_7qG2_000.values	7	0	142	4	4
+56	__main_7qG2_outputVelocity_7qG2_000.values.values_type	7	0	0	4	0
+57	__main_7qG2_outputVelocity_7qG2_000.values.values_type.values_type_type	10	0	0	4	0
+58	__main_7qG2_inputFront_7qG2_000	8	0	4	12	6
+59	__main_7qG2_inputFront_7qG2_000.universeFrom	4	1	144	2	6
+60	__main_7qG2_inputFront_7qG2_000.universeTo	4	1	146	2	6
+61	__main_7qG2_inputFront_7qG2_000.keys	7	0	148	4	6
+62	__main_7qG2_inputFront_7qG2_000.keys.keys_type	4	0	0	2	0
+63	__main_7qG2_inputFront_7qG2_000.values	7	0	150	4	6
+64	__main_7qG2_inputFront_7qG2_000.values.values_type	7	0	0	4	0
+65	__main_7qG2_inputFront_7qG2_000.values.values_type.values_type_type	10	0	0	4	0
+66	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000	8	0	4	12	11
+67	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.universeFrom	4	1	152	2	11
+68	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.universeTo	4	1	154	2	11
+69	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.keys	7	0	156	4	11
+70	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.keys.keys_type	4	0	0	2	0
+71	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values	7	0	158	4	11
+72	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values.values_type	7	0	0	4	0
+73	__fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values.values_type.values_type_type	10	0	0	4	0
+74	__constStr0016	7	0	160	4	1
+75	__constStr0016.__constStr0016_type	1	1	0	1	0
+76	__constStr0017	7	0	162	4	1
+77	__constStr0017.__constStr0017_type	1	1	0	1	0
+78	__main_7qG2_outputVelocityValues_7qG2_000	7	0	164	4	2
+79	__main_7qG2_outputVelocityValues_7qG2_000.__main_7qG2_outputVelocityValues_7qG2_000_type	7	0	0	4	0
+80	__main_7qG2_outputVelocityValues_7qG2_000.__main_7qG2_outputVelocityValues_7qG2_000_type.__main_7qG2_outputVelocityValues_7qG2_000_type_type	10	0	0	4	0
+81	__constStr0014	7	0	166	4	1
+82	__constStr0014.__constStr0014_type	2	1	0	1	0
+83	__constStr0015	7	0	168	4	1
+84	__constStr0015.__constStr0015_type	1	1	0	1	0
+85	__constStr0012	7	0	170	4	1
+86	__constStr0012.__constStr0012_type	2	1	0	1	0
+87	__constStr0013	7	0	172	4	1
+88	__constStr0013.__constStr0013_type	2	1	0	1	0
+89	__ArrHelper__fuzzycFunctionGetMembershipValue_220_0	7	0	174	4	14
+90	__ArrHelper__fuzzycFunctionGetMembershipValue_220_0.__ArrHelper__fuzzycFunctionGetMembershipValue_220_0_type	10	0	0	4	0
+91	__main_7qG2_inputFrontKeys_7qG2_000	7	0	176	4	2
+92	__main_7qG2_inputFrontKeys_7qG2_000.__main_7qG2_inputFrontKeys_7qG2_000_type	4	0	0	2	0
+93	__fuzzycGetMultidimensionalLength_7qG2_t_7qG2_000	7	0	178	4	2
+94	__fuzzycGetMultidimensionalLength_7qG2_t_7qG2_000.__fuzzycGetMultidimensionalLength_7qG2_t_7qG2_000_type	10	0	0	4	0
+95	__strbufmain	7	0	180	4	6
+96	__strbufmain.__strbufmain_type	1	0	0	1	0
+97	__main_7qG2_inputFrontValues_7qG2_000	7	0	182	4	2
+98	__main_7qG2_inputFrontValues_7qG2_000.__main_7qG2_inputFrontValues_7qG2_000_type	7	0	0	4	0
+99	__main_7qG2_inputFrontValues_7qG2_000.__main_7qG2_inputFrontValues_7qG2_000_type.__main_7qG2_inputFrontValues_7qG2_000_type_type	10	0	0	4	0
+100	__constStr0011	7	0	184	4	1
+101	__constStr0011.__constStr0011_type	4	1	0	2	0
+102	__main_7qG2_outputVelocityKeys_7qG2_000	7	0	186	4	2
+103	__main_7qG2_outputVelocityKeys_7qG2_000.__main_7qG2_outputVelocityKeys_7qG2_000_type	4	0	0	2	0
+104	__constStr0009	7	0	188	4	1
+105	__constStr0009.__constStr0009_type	2	1	0	1	0
+106	__constStr0010	7	0	190	4	1
+107	__constStr0010.__constStr0010_type	10	1	0	4	0
+#SOURCES
+Clump	Line	PC	Source
+0	11	0	#line 11 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	12	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	11	2	#line 11 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	13	2	#line 13 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	14	2		set __main_7qG2_inputFront_7qG2_000.universeFrom, 0
+0	13	5	#line 13 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	13	5	#line 13 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	14	5	#line 14 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	15	5		set __main_7qG2_inputFront_7qG2_000.universeTo, 250
+0	14	8	#line 14 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	14	8	#line 14 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	15	8	#line 15 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	16	8		arrbuild __main_7qG2_inputFrontKeys_7qG2_000, __constVal101, __constVal102, __constVal103
+0	16	14	#line 16 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	17	14		mov __main_7qG2_inputFront_7qG2_000.keys, __main_7qG2_inputFrontKeys_7qG2_000
+0	16	16	#line 16 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	21	16	#line 21 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	22	16		arrbuild __main_7qG2_inputFrontValues_7qG2_000, __constStr0009, __constStr0010, __constStr0011
+0	24	22	#line 24 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	25	22		mov __main_7qG2_inputFront_7qG2_000.values, __main_7qG2_inputFrontValues_7qG2_000
+0	24	24	#line 24 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	26	24	#line 26 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	27	24		set __main_7qG2_outputVelocity_7qG2_000.universeFrom, 0
+0	26	27	#line 26 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	26	27	#line 26 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	27	27	#line 27 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	28	27		set __main_7qG2_outputVelocity_7qG2_000.universeTo, 100
+0	27	30	#line 27 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	27	30	#line 27 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	28	30	#line 28 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	29	30		arrbuild __main_7qG2_outputVelocityKeys_7qG2_000, __constVal201, __constVal202, __constVal203
+0	29	36	#line 29 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	30	36		mov __main_7qG2_outputVelocity_7qG2_000.keys, __main_7qG2_outputVelocityKeys_7qG2_000
+0	29	38	#line 29 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	34	38	#line 34 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	35	38		arrbuild __main_7qG2_outputVelocityValues_7qG2_000, __constStr0012, __constStr0013, __constStr0014
+0	70	44	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	44		mov __main_7qG2_outputVelocity_7qG2_000.values, __main_7qG2_outputVelocityValues_7qG2_000
+0	70	46	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	70	46	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	46		set __signed_stack_001main, 0
+0	70	49	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	70	49	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	49		set __signed_stack_002main, 56
+0	70	52	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	70	52	#line 70 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	52		strcat __strbufmain, __constStr0015
+0	71	56	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	56	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	56		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	71	58	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	58		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	71	60	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	60		set __TextOutArgs.Options, 0
+0	71	63	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	63		mov __TextOutArgs.Text, __strbufmain
+0	71	65	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	65		syscall 13, __TextOutArgs
+0	71	68	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	68	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	68	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	68	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	68		set __signed_stack_001main, 0
+0	71	71	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	71	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	71		set __signed_stack_002main, 48
+0	71	74	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	74	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	74		mov __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000, __main_7qG2_inputFront_7qG2_000
+0	71	76	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	76		set __fuzzycFunctionGetMembershipValue_7qG2_term_7qG2_000, 101
+0	71	79	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	79	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	79		set __fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000, 10
+0	71	82	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	71	82	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	82		subcall fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_return
+0	71	84	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	84		mov __main_7qG2_inputFront_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000
+0	71	86	#line 71 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	86		mov __DF0main, __DF0fuzzycFunctionGetMembershipValue
+0	72	88	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	88	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	88		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	72	90	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	90		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	72	92	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	92		set __TextOutArgs.Options, 0
+0	72	95	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	95		numtostr __TextOutArgs.Text, __DF0main
+0	72	98	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	98		syscall 13, __TextOutArgs
+0	72	101	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	101	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	101	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	101	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	101		set __signed_stack_001main, 0
+0	72	104	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	104	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	104		set __signed_stack_002main, 40
+0	72	107	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	72	107	#line 72 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	107		strcat __strbufmain, __constStr0016
+0	73	111	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	111	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	111		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	73	113	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	113		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	73	115	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	115		set __TextOutArgs.Options, 0
+0	73	118	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	118		mov __TextOutArgs.Text, __strbufmain
+0	73	120	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	120		syscall 13, __TextOutArgs
+0	73	123	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	123	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	123	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	123	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	123		set __signed_stack_001main, 0
+0	73	126	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	126	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	126		set __signed_stack_002main, 24
+0	73	129	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	73	129	#line 73 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	74	129		strcat __strbufmain, __constStr0017
+0	75	133	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	75	133	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	133		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	75	135	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	135		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	75	137	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	137		set __TextOutArgs.Options, 0
+0	75	140	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	140		mov __TextOutArgs.Text, __strbufmain
+0	75	142	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	142		syscall 13, __TextOutArgs
+0	75	145	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	75	145	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	75	145	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	75	145	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	76	145		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	75	148	#line 75 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	7921	148	#line 7921 "NXCDefs.h"
+0	7922	148		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	151	#line 7921 "NXCDefs.h"
+0	76	151	#line 76 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+0	77	151		exit -1, -1
+1	22	0	#line 22 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+1	23	0		arrsize __D0fuzzycGetMultidimensionalLength, __fuzzycGetMultidimensionalLength_7qG2_t_7qG2_000
+1	22	3	#line 22 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+1	23	3		subret __fuzzycGetMultidimensionalLength_return
+1	22	5	#line 22 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+1	22	5	#line 22 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+1	25	5	#line 25 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+1	26	5		subret __fuzzycGetMultidimensionalLength_return
+2	27	0	#line 27 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	28	0		arrsize __fuzzycFunctionGetMembershipValue_7qG2_termsLength_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.keys
+2	27	3	#line 27 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	30	3	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	3		set __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000, 0
+2	30	6	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	30	6	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	6		set __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, 0
+2	30	9	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	30	9	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	9		mov __fuzzycFunctionGetMembershipValue_7qG2_length_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_termsLength_7qG2_000
+2	30	11	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	30	11	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	11		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000
+2	30	13	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	30	13	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	13		mov __D0fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termsLength_7qG2_000
+2	30	15	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	15		cmp 0, __zffuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	30	19	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	19		mov __D0fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	30	21	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	21		brtst 4, __NXC_Label_496, __zffuzzycFunctionGetMembershipValue
+2	30	24	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	24		jmp __NXC_Label_497
+2	30	26	#line 30 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	26		add __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __constVal1
+2	31	30	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	30		jmp __NXC_Label_495
+2	31	32	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	32		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_term_7qG2_000
+2	31	34	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	34	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	34		mov __signed_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000
+2	31	36	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	31	36	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	36		index __ArrHelper__fuzzycFunctionGetMembershipValue_73_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.keys, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	31	40	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	40		mov __D0fuzzycFunctionGetMembershipValue, __ArrHelper__fuzzycFunctionGetMembershipValue_73_0
+2	31	42	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	42		cmp 4, __zffuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	31	46	#line 31 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	32	46		mov __D0fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	32	48	#line 32 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	33	48		brtst 4, __NXC_Label_509, __zffuzzycFunctionGetMembershipValue
+2	33	51	#line 33 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	34	51		mov __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000
+2	33	53	#line 33 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	33	53	#line 33 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	34	53	#line 34 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	35	53		jmp __NXC_Label_496
+2	34	55	#line 34 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	37	55	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	37	55	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	38	55		jmp __NXC_Label_498
+2	37	57	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	37	57	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	38	57		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	37	59	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	37	59	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	38	59		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	37	63	#line 37 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	38	63		mov __fuzzycGetMultidimensionalLength_7qG2_t_7qG2_000, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0
+2	39	65	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	65		subcall fuzzycGetMultidimensionalLength, __fuzzycGetMultidimensionalLength_return
+2	39	67	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	67		mov __fuzzycFunctionGetMembershipValue_7qG2_length_7qG2_000, __D0fuzzycGetMultidimensionalLength
+2	39	69	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	69	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	69	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	69		set __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, 0
+2	39	72	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	72	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	72		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000
+2	39	74	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	74	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	74	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	74	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	74	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	74		sub __D0fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_length_7qG2_000, __constVal2
+2	39	78	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	78		cmp 0, __zffuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	39	82	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	82		mov __D0fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	39	84	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	84		brtst 4, __NXC_Label_517, __zffuzzycFunctionGetMembershipValue
+2	39	87	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	87		jmp __NXC_Label_518
+2	39	89	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	39	89	#line 39 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	89		add __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __constVal2
+2	40	93	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	93		jmp __NXC_Label_516
+2	40	95	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	95		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	40	97	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	97	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	97		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	40	101	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	101		mov __signed_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000
+2	40	103	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	40	103	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	103		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	40	107	#line 40 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	107		mov __fuzzycFunctionGetMembershipValue_7qG2_currentValueX_7qG2_002, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	41	109	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	109	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	109		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	41	111	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	111	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	111		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	41	115	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	115	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	115	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	115	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	115		add __signed_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __constVal1
+2	41	119	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	41	119	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	119		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	41	123	#line 41 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	123		mov __fuzzycFunctionGetMembershipValue_7qG2_currentValueY_7qG2_002, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	42	125	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	125	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	125		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	42	127	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	127	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	127		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	42	131	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	131	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	131	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	131	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	131		add __signed_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __constVal2
+2	42	135	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	42	135	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	135		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	42	139	#line 42 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	139		mov __fuzzycFunctionGetMembershipValue_7qG2_nextValueX_7qG2_002, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	43	141	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	141	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	44	141		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	43	143	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	143	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	44	143		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	43	147	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	147	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	147	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	147	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	44	147		add __signed_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_index_7qG2_000, __constVal3
+2	43	151	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	43	151	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	44	151		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	43	155	#line 43 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	44	155		mov __fuzzycFunctionGetMembershipValue_7qG2_nextValueY_7qG2_002, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	45	157	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	45	157	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	157		mov __float_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000
+2	45	159	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	45	159	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	159		mov __DF0fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_currentValueX_7qG2_002
+2	45	161	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	161		cmp 3, __zffuzzycFunctionGetMembershipValue, __float_stack_001fuzzycFunctionGetMembershipValue, __DF0fuzzycFunctionGetMembershipValue
+2	45	165	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	165		mov __D0fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	45	167	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	167		brtst 4, __NXC_Label_551, __zffuzzycFunctionGetMembershipValue
+2	45	170	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	170		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	45	172	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	172		mov __float_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000
+2	45	174	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	45	174	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	174		mov __DF0fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_nextValueX_7qG2_002
+2	45	176	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	176		cmp 2, __zffuzzycFunctionGetMembershipValue, __float_stack_002fuzzycFunctionGetMembershipValue, __DF0fuzzycFunctionGetMembershipValue
+2	45	180	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	45	180	#line 45 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	180		and __D0fuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	46	184	#line 46 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	184		tst 5, __zffuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	46	187	#line 46 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	187		brtst 4, __NXC_Label_552, __zffuzzycFunctionGetMembershipValue
+2	46	190	#line 46 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	46	190	#line 46 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	190	#line 47 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	190	#line 47 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	48	190		sub __fuzzycFunctionGetMembershipValue_7qG2_diffX_7qG2_003, __fuzzycFunctionGetMembershipValue_7qG2_nextValueX_7qG2_002, __fuzzycFunctionGetMembershipValue_7qG2_currentValueX_7qG2_002
+2	47	194	#line 47 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	194	#line 47 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	47	194	#line 47 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	49	194	#line 49 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	49	194	#line 49 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	50	194		sub __fuzzycFunctionGetMembershipValue_7qG2_diffY_7qG2_003, __fuzzycFunctionGetMembershipValue_7qG2_nextValueY_7qG2_002, __fuzzycFunctionGetMembershipValue_7qG2_currentValueY_7qG2_002
+2	49	198	#line 49 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	49	198	#line 49 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	49	198	#line 49 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	198	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	198	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	52	198		div __fuzzycFunctionGetMembershipValue_7qG2_ratio_7qG2_003, __fuzzycFunctionGetMembershipValue_7qG2_diffY_7qG2_003, __fuzzycFunctionGetMembershipValue_7qG2_diffX_7qG2_003
+2	51	202	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	202	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	52	202		mov __float_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_currentValueY_7qG2_002
+2	51	204	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	204	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	204	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	204	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	51	204	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	52	204		sub __float_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000, __fuzzycFunctionGetMembershipValue_7qG2_currentValueX_7qG2_002
+2	51	208	#line 51 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	52	208	#line 52 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	52	208	#line 52 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	53	208		mul __DF0fuzzycFunctionGetMembershipValue, __float_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_ratio_7qG2_003
+2	52	212	#line 52 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	53	212		add __DF0fuzzycFunctionGetMembershipValue, __float_stack_001fuzzycFunctionGetMembershipValue, __DF0fuzzycFunctionGetMembershipValue
+2	52	216	#line 52 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	53	216		subret __fuzzycFunctionGetMembershipValue_return
+2	52	218	#line 52 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	218	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	218	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	218		jmp __NXC_Label_519
+2	55	220	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	220	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	220		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_length_7qG2_000
+2	55	222	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	222	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	222		set __D0fuzzycFunctionGetMembershipValue, 2
+2	55	225	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	225		cmp 4, __zffuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	55	229	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	229		mov __D0fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	55	231	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	231		brtst 4, __NXC_Label_564, __zffuzzycFunctionGetMembershipValue
+2	55	234	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	234		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	55	236	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	236		mov __float_stack_002fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_valueX_7qG2_000
+2	55	238	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	238	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	238		mov __signed_stack_003fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	55	240	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	240	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	240		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_003fuzzycFunctionGetMembershipValue
+2	55	244	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	244		set __signed_stack_004fuzzycFunctionGetMembershipValue, 0
+2	55	247	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	247	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	247		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_004fuzzycFunctionGetMembershipValue
+2	55	251	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	251		mov __DF0fuzzycFunctionGetMembershipValue, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	55	253	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	253		cmp 4, __zffuzzycFunctionGetMembershipValue, __float_stack_002fuzzycFunctionGetMembershipValue, __DF0fuzzycFunctionGetMembershipValue
+2	55	257	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	55	257	#line 55 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	257		and __D0fuzzycFunctionGetMembershipValue, __signed_stack_001fuzzycFunctionGetMembershipValue, __zffuzzycFunctionGetMembershipValue
+2	56	261	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	261		tst 5, __zffuzzycFunctionGetMembershipValue, __D0fuzzycFunctionGetMembershipValue
+2	56	264	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	264		brtst 4, __NXC_Label_569, __zffuzzycFunctionGetMembershipValue
+2	56	267	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	267		mov __signed_stack_001fuzzycFunctionGetMembershipValue, __fuzzycFunctionGetMembershipValue_7qG2_termIndex_7qG2_000
+2	56	269	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	269	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	269		index __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __fuzzycFunctionGetMembershipValue_7qG2_variable_7qG2_000.values, __signed_stack_001fuzzycFunctionGetMembershipValue
+2	56	273	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	273		set __signed_stack_002fuzzycFunctionGetMembershipValue, 1
+2	56	276	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	56	276	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	276		index __ArrHelper__fuzzycFunctionGetMembershipValue_79_0, __ArrHelper__fuzzycFunctionGetMembershipValue_220_0, __signed_stack_002fuzzycFunctionGetMembershipValue
+2	56	280	#line 56 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	57	280		mov __DF0fuzzycFunctionGetMembershipValue, __ArrHelper__fuzzycFunctionGetMembershipValue_79_0
+2	57	282	#line 57 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	58	282		subret __fuzzycFunctionGetMembershipValue_return
+2	57	284	#line 57 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	59	284	#line 59 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	60	284	#line 60 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	61	284		set __DF0fuzzycFunctionGetMembershipValue, 0
+2	60	287	#line 60 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	60	287	#line 60 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	61	287		subret __fuzzycFunctionGetMembershipValue_return
+2	60	289	#line 60 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	61	289	#line 61 "C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h"
+2	62	289		subret __fuzzycFunctionGetMembershipValue_return
+3	79	0	#line 79 "C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc"
+3	80	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc
+1	fuzzycGetMultidimensionalLength	154	C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h
+2	fuzzycFunctionGetMembershipValue	161	C:\Jeff\Projetos\Outros\Fuzzyc\.\Fuzzyc.h
+3	__initialize_global_data	452	C:\Jeff\Projetos\Outros\Fuzzyc\main.nxc

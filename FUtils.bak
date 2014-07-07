@@ -1,0 +1,19 @@
+struct FInOutput {
+       float universeFrom, universeTo;
+       int keys[];
+       float values[][];
+};
+
+struct FRule {
+       int inputTerms[];
+       int outputTerms[];
+};
+
+struct FProcessor {
+       int discretizationPoints;
+       
+       FInOutput inputs[];
+       FInOutput outputs[];
+       
+       
+};

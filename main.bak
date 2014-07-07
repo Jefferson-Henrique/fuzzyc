@@ -1,0 +1,77 @@
+#include "Fuzzyc.h"
+
+#define NEAR 101
+#define MEDIUM 102
+#define FAR 103
+
+#define SLOW 201
+#define NORMAL 202
+#define FAST 203
+
+task main() {
+     FInOutput inputFront;
+     inputFront.universeFrom = 0;
+     inputFront.universeTo = 250;
+     int inputFrontKeys[] = {NEAR, MEDIUM, FAR};
+     inputFront.keys = inputFrontKeys;
+     float inputFrontValues[][] = {
+           {0, 1, 125, 0},
+           {72.5, 0, 125, 1, 197.5, 0},
+           {125, 0, 250, 1}
+     };
+     inputFront.values = inputFrontValues;
+
+
+     FInOutput outputVelocity;
+     outputVelocity.universeFrom = 0;
+     outputVelocity.universeTo = 100;
+     int outputVelocityKeys[] = {SLOW, NORMAL, FAST};
+     outputVelocity.keys = outputVelocityKeys;
+     float outputVelocityValues[][] = {
+           {0, 1, 50, 0},
+           {25, 0, 50, 1, 75, 0},
+           {50, 0, 100, 1}
+     };
+     outputVelocity.values = outputVelocityValues;
+     
+     /*FProcessor processor;
+     processor.discretizationPoints = 12;
+     FInOutput processorInputs[];
+     processor.inputs = processorInputs;
+     FInOutput processorOutputs[] = {NULL};
+     processorOutputs[0] = outputVelocity;
+     processor.outputs = processorOutputs;
+     
+     // All rules must obey the elements order in processor
+     FRule rule1;
+     int rule1InputTerms[] = {NEAR};
+     int rule1OutputTerms[] = {SLOW};
+     rule1.inputTerms = rule1InputTerms;
+     rule1.outputTerms = rule1OutputTerms;
+
+     FRule rule2;
+     int rule2InputTerms[] = {MEDIUM};
+     int rule2OutputTerms[] = {NORMAL};
+     rule2.inputTerms = rule1InputTerms;
+     rule2.outputTerms = rule1OutputTerms;
+     
+     FRule rule3;
+     int rule3InputTerms[] = {FAR};
+     int rule3OutputTerms[] = {FAST};
+     rule3.inputTerms = rule1InputTerms;
+     rule3.outputTerms = rule1OutputTerms;
+     
+     FRule processorRules[] = {NULL, NULL, NULL};
+     processorRules[0] = rule1;
+     processorRules[1] = rule2;
+     processorRules[2] = rule3;
+     processor.rules = processorRules;   */
+     
+     //while (TRUE) {
+         TextOut(0, LCD_LINE1, "  NEAR");
+         NumOut(0, LCD_LINE2, );
+         TextOut(0, LCD_LINE3, "MEDIUM");
+         TextOut(0, LCD_LINE5, "   FAR");
+     //}
+     Wait(1000);
+}
